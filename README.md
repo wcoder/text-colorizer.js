@@ -1,5 +1,7 @@
 # text-colorizer.js
 
+Script to format the text in the text with a random color and size (words or letters).
+
 ### Using
 ```
 <script src="path/to/text-colorizer.js"></script>

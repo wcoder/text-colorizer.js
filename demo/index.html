@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo</title>
+</head>
+<body>
+	
+	<p>By word:</p>
+	<p id="text-colorize-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	
+	<p>By letter:</p>
+	<p id="text-colorize-letter">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	
+	<p>Custom font-size:</p>
+	<p id="text-colorize-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	
+	
+	<script src="../src/text-colorizer.js"></script>
+	<script>
+		(function () {
+			'use strict';			
+			
+			var word = document.querySelector('#text-colorize-word');
+			textColorizer(word, true);
+			
+			var letter = document.querySelector('#text-colorize-letter');
+			textColorizer(letter, false);
+			
+			var size = document.querySelector('#text-colorize-size');
+			textColorizer(size, true, 60, 36);
+			
+		}());
+	</script>
+</body>
+</html>

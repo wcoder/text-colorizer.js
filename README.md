@@ -19,7 +19,7 @@ textColorizer(domElement, [isByWord, maxFontSize, minFontSize]);
 ```
 
 ### Screenshot
-![./demo/screenshot.png](screenshot)
+![screenshot](./demo/screenshot.png)
 
 ---
 &copy; 2015 Yauheni Pakala | MIT

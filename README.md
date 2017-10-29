@@ -3,7 +3,8 @@
 Script to format the text in the text with a random color and size (words or letters).
 
 ### Using
-```
+
+```html
 <script src="path/to/text-colorizer.js"></script>
 <script>
 (function () {
@@ -16,7 +17,8 @@ Script to format the text in the text with a random color and size (words or let
 ```
 
 ### API
-```
+
+```js
 textColorizer(domElement, [isByWord, maxFontSize, minFontSize]);
 ```
 
